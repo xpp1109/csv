@@ -1,13 +1,9 @@
 package org.xpp.net.sourceforge.javacsv;
 
 import com.csvreader.CsvReader;
-import com.csvreader.CsvWriter;
-import lombok.extern.slf4j.Slf4j;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.OutputStream;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
