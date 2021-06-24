@@ -23,5 +23,10 @@
             <artifactId>hutool-all</artifactId>
             <version>5.7.2</version>
         </dependency>
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>5.4</version>
+        </dependency>
     </dependencies>
 </project>
