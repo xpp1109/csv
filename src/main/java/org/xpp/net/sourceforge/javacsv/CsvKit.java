@@ -59,16 +59,7 @@ public class CsvKit {
             String[] values = csvReader.getValues();
             System.out.println(Arrays.toString(values));
         }
-        fileInputStream.close();
-        csvReader.close();
 
-
-        System.out.println("------------------写csv文件-------------------------");
-        System.out.println("有四个writer构造函数，自行查看官方文档");
-        OutputStream os = new FileOutputStream(new File("src/main/resources/writer.csv"));
-        CsvWriter csvWriter = new CsvWriter(os , ',', StandardCharsets.UTF_8);
-        csvWriter.writeRecord(new String[]{"a", "b", "c", "d"});
-        csvWriter.close();
 
     }
 }
